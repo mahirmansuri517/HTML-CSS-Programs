@@ -1,0 +1,149 @@
+body{
+    background-image: url("/images/pattern-background-desktop.svg");
+    margin: 0;
+    font-family: "Red Hat Display", sans-serif;
+    background-repeat: no-repeat;
+    background-color: rgb(224,232,255);
+    font-weight: 350px;
+    background-attachment: fixed;
+        
+}
+*{
+    box-sizing: border-box;
+}
+
+.box-container{
+    background-color: white;
+    width: 300px;
+    height: 480px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    
+    
+    /* margin: 100px; */
+    margin-top: 70px;
+    margin-left: 450px;
+    background-image: url("/images/illustration-hero.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 300px 150px;
+    
+
+    
+    /* background-position-x: center; */
+    /* background-position-y: ; */
+}
+
+h2{
+    padding-top: 190px;
+    padding-inline: 75px;
+    font-size: large;
+    margin-top: 0;
+    
+    
+
+    
+}
+p{
+    opacity: 0.5;
+    display: flex;
+    padding-inline: 15px;
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 13px;
+    justify-content: center;
+    padding-left: 35px;
+    
+}
+
+.music{
+    display: flex;
+    background-color: rgb(248,249,254);
+    align-items: center;
+    margin: 30px;
+    /* justify-content: center; */
+    border-radius: 10px;
+    padding: 1px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    
+
+    
+}
+a{
+    position: fixed;
+    margin-left: 175px;
+    font-size: x-small;
+    text-transform: capitalize;
+}
+span{
+    opacity: 0.3;
+    padding-top: 5px;
+    padding-left: 0;
+    
+    
+
+}
+button{
+    align-items: center;
+    display: flex;
+    background-color: rgb(56,42,225);
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+    padding-block: 10px;
+    padding-inline: 70px;
+    font-size: x-small;
+    font-weight: bold;
+    margin-bottom: 10px;
+    box-shadow: -1px 6px 20px -1px rgb(145, 135, 249);
+}
+.cancel{
+    margin-inline: 110px;
+    /* margin-block: 195px; */
+    display: flex;
+    align-items: center;
+    
+    /* margin-top: -5px; */
+    /* margin-bottom: 10px; */
+    font-size: x-small;
+    font-weight: 800;
+    /* justify-content: center; */
+
+}
+h6{     
+    padding-left: 20px;
+    padding-right: 120px;
+    
+    
+    
+
+}
+img{
+    padding-left: 20px;
+    width: 100px;
+    height: 30px;
+    
+
+}
+
+@media (max-width:500px){
+    body{
+        background-image: url("/images/pattern-background-mobile.svg");
+        margin: 0;
+        min-height: 490px;
+    }
+    .box-container{
+        display: block;
+        max-width: 400px;
+        margin: 3.5rem;
+        margin-top: -30px;
+    
+        
+        
+    }    
+
+}
